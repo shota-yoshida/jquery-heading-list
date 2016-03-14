@@ -1,0 +1,24 @@
+/*!
+ * jquery-heading-list v1.0
+ * Copyright 2016 Shota Yoshida
+ * http://error-reporting.com
+ */
+
+#heading-list > ul > li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+#heading-list > ul > li:hover {
+  background-color: #c0c0c0;
+}
+
+#heading-list > ul > li > a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #696969;
+}
+
+#heading-list > ul > li > a:hover {
+  color: #FFFFFF;
+}
