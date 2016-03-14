@@ -48,7 +48,7 @@
 
     this.html(html);
 
-    this.find('a[href^=' + anchorPrefix + ']').click(function() {
+    this.find('a[href^=#' + anchorPrefix + ']').click(function() {
       var href = $(this).attr("href");
       var scrollTarget = $(href === "#" || href === "" ? 'html' : href);
       var position = scrollTarget.offset().top;
@@ -61,3 +61,4 @@
     return this;
   };
 })(jQuery);
+
