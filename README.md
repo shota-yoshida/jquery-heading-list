@@ -5,24 +5,26 @@ This jquery plugin can create heading list on automatically.
 
 
 ## Demo
-下のリンクで動作が確認できます。
-if you want to show this demo, please click the URL below.
-[DEMO](http://shota-yoshida.github.io/jquery-heading-list/test/index.html "DEMO")
+
+下のリンクで動作が確認できます。  
+if you want to show this demo, please click the URL below.  
+[DEMO](http://shota-yoshida.github.io/jquery-heading-list/test/index.html "DEMO")  
 
 ## Usage
-1. headタグでjqueryを読み込みます。
+
+### headタグでjqueryを読み込みます。
 
 ```html:index.html
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 ```
 
-2. headタグでjquery-heading-list.jsを読み込みます。
+### headタグでjquery-heading-list.jsを読み込みます。
 
 ```html:index.html
 <link rel="stylesheet" type="text/css" href="../src/jquery-heading-list.css" />
 ```
 
-3. headタグでjquery-heading-list.cssを読み込みます。
+### headタグでjquery-heading-list.cssを読み込みます。
 cssはソースを見ればわかりますが、最低限の記述等のみになっています。
 用途にあわせて適宜書き換えて使用してください。
 
@@ -30,7 +32,7 @@ cssはソースを見ればわかりますが、最低限の記述等のみに�
 <script type="text/javascript" src="../src/jquery-heading-list.js"></script>
 ```
 
-4. headタグでプラグインを使用します。
+### headタグでプラグインを使用します。
 
 ```html:index.html
 <script type="text/javascript">
