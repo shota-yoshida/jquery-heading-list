@@ -12,19 +12,19 @@ if you want to show this demo, please click the URL below.
 
 ## Usage
 
-### headタグでjqueryを読み込みます。
+#### headタグでjqueryを読み込みます。
 
 ```html:index.html
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 ```
 
-### headタグでjquery-heading-list.jsを読み込みます。
+#### headタグでjquery-heading-list.jsを読み込みます。
 
 ```html:index.html
 <link rel="stylesheet" type="text/css" href="../src/jquery-heading-list.css" />
 ```
 
-### headタグでjquery-heading-list.cssを読み込みます。
+#### headタグでjquery-heading-list.cssを読み込みます。
 cssはソースを見ればわかりますが、最低限の記述等のみになっています。
 用途にあわせて適宜書き換えて使用してください。
 
@@ -32,7 +32,7 @@ cssはソースを見ればわかりますが、最低限の記述等のみに�
 <script type="text/javascript" src="../src/jquery-heading-list.js"></script>
 ```
 
-### headタグでプラグインを使用します。
+#### headタグでプラグインを使用します。
 
 ```html:index.html
 <script type="text/javascript">
@@ -40,6 +40,12 @@ cssはソースを見ればわかりますが、最低限の記述等のみに�
     $("#heading-list").headingList();
   });
 </script>
+```
+
+#### bodyタグ内の一覧を表示したい箇所にid要素の「heading-list」を設定します。
+
+```html:index.html
+<div id="heading-list"></div>
 ```
 
 ## Licence
