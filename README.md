@@ -48,6 +48,28 @@ cssはソースを見ればわかりますが、最低限の記述等のみに�
 <div id="heading-list"></div>
 ```
 
+#### オプションが設定できます。
+
+| オプション   | デフォルト値  | 説明                                                |
+|:-------------|:--------------|:----------------------------------------------------|
+| target       | body          | hタグを探す対象の要素を指定します。                 |
+| scrollSpeed  | 500           | リンクを押下した際のスクロールスピードを指定します。|
+| prefix       | &nbsp;&nbsp;  | 作成した一覧のインデントを指定します。              |
+
+```html:index.html
+<script type="text/javascript">
+  $(function(){
+    $("#heading-list").headingList(
+      {
+        target: 'body',
+        scrollSpeed: 500,
+        prefix: '&nbsp;&nbsp;'
+      }
+    );
+  });
+</script>
+```
+
 ## Licence
 
 MIT
